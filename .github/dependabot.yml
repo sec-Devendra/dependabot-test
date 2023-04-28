@@ -9,6 +9,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "scan-file"
+    target-branch: "scan"
       
    
