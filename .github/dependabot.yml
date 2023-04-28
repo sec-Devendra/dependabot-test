@@ -5,12 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "all" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "all" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "daily"
     target-branch: "scan-file"
